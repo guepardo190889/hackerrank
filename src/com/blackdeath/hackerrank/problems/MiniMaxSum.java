@@ -28,7 +28,7 @@ public class MiniMaxSum {
 
 		BigDecimal suma = new BigDecimal("0");
 
-		for (int i = 0; i < arr.length - 1; i++) {
+		for (int i = 0; i < arr.length; i++) {
 			suma = suma.add(new BigDecimal(arr[i]));
 		}
 
