@@ -22,7 +22,6 @@ import java.util.Arrays;
  */
 public class MiniMaxSum {
 
-	// Complete the miniMaxSum function below.
 	static void miniMaxSum(int[] arr) {
 		Arrays.sort(arr);
 
